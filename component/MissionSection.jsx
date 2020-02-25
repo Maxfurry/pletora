@@ -13,7 +13,7 @@ export default function MissionSection() {
         <div>
           <p>
             At <span>Pletora</span> we provide every client with the most
-            innovative, highest quality stanndards of design, engineering and
+            innovative, highest quality standards of design, engineering and
             construction services in the safest and most sustainable way
             possible.
           </p>

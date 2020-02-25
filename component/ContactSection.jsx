@@ -20,17 +20,20 @@ function ContactInfo() {
   ];
 
   return (
-    <ul>
-      {info.map((singleInfo, i) => {
-        const { label, info } = singleInfo;
-        return (
-          <li key={i}>
-            <strong>{label}</strong>
-            {info}
-          </li>
-        );
-      })}
-    </ul>
+    <>
+      <ul>
+        {info.map((singleInfo, i) => {
+          const { label, info } = singleInfo;
+          return (
+            <li key={i}>
+              <strong>{label}</strong>
+              {info}
+            </li>
+          );
+        })}
+      </ul>
+      <style jsx>{contactSectionStyle}</style>
+    </>
   );
 }
 

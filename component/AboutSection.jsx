@@ -7,7 +7,7 @@ export default function AboutSection() {
         <div>
           <h1>About Pletora</h1>
           <p>
-            Pletora Construction is a Nigerian design, architecture engineering
+            Pletora Construction is a Nigerian design, architecture, engineering
             and planning company. We unite a diverse team of architects,
             engineers, builders and industry experts to help bring our customers
             dreams to life.

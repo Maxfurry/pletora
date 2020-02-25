@@ -4,6 +4,7 @@ export default css`
   header {
     background-image: url("/static/images/landingImage.png");
     height: 100vh;
+    min-height: 500px;
     color: #fff;
     padding: 30px 20px;
     position: relative;
@@ -18,6 +19,43 @@ export default css`
   .logo img {
     height: 50px;
     cursor: pointer;
+  }
+
+  .go-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    background-color: transparent;
+    z-index: 1000;
+    color: #fff;
+    height: fit-content;
+    width: fit-content;
+    cursor: pointer;
+  }
+
+  .go-to-top .go-to-top-button {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid var(--main-color);
+  }
+
+  .go-to-top .go-to-top-button:hover {
+    height: 55px;
+    width: 55px;
+    background-color: var(--main-color);
+    border: 1px solid #ff5416;
+  }
+
+  .go-to-top .go-to-top-button img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
   }
 
   nav {
@@ -129,7 +167,6 @@ export default css`
 
   section.hero-text p {
     width: 80%;
-    margin-bottom: 20px;
     font-size: 15px;
   }
 
@@ -182,15 +219,11 @@ export default css`
       margin-left: 0;
       padding-left: 0;
       background-color: transparent;
-      /* border-bottom: 2px solid #ff672f; */
-      border-bottom: 2px solid var(--main-color);
-      border-radius: 2px;
+      color: var(--main-color);
     }
 
     nav ul li:hover {
-      /* border-bottom: 2px solid #ff672f; */
-      background-color: var(--main-color);
-      border-radius: 2px;
+      color: var(--main-color);
     }
 
     section.hero-text h1 {

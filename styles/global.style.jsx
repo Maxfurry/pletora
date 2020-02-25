@@ -1,12 +1,7 @@
 import css from "styled-jsx/css";
 
 export default css.global`
-  @import url("https://fonts.googleapis.com/css?family=avenir");
-  @font-face {
-    font-family: "uknk";
-    src: url("/static/avenir_font/AvenirLTStd-Book.otf") format("opentype");
-    font-weight: bold;
-  }
+  @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
   :root {
     --main-color: #ffbb5c;
   }
@@ -24,9 +19,7 @@ export default css.global`
   body {
     font-size: 20px;
     line-height: 27px;
-    font-family: Avenir, "Nunito";
-    font-family: "avenir";
-    // font-family: "uknk";
+    font-family: Avenir, "Poppins", sans-serif;
     min-width: 320px;
     overflow-x: hidden;
   }

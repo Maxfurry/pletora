@@ -33,7 +33,12 @@ export default css`
   section.contact-section div.contact-info {
     margin: 0 auto 30px;
     flex-basis: 100%;
+    overflow-x: scroll;
     color: #fff;
+  }
+
+  section.contact-section div.contact-info ul li {
+    margin-bottom: 5px;
   }
 
   section.contact-section div:first-child {
@@ -70,7 +75,7 @@ export default css`
   }
 
   section.contact-section div form div input::placeholder {
-    text-transform: uppercase;
+    text-transform: capitalize;
   }
 
   section.contact-section div form textarea {
@@ -83,8 +88,8 @@ export default css`
   section.contact-section div form div input::placeholder,
   section.contact-section div form textarea::placeholder {
     color: #000;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 16px;
+    line-height: 15px;
   }
 
   section.contact-section div form button {

@@ -73,7 +73,7 @@ export default function LatestWorkSection() {
               <div className="work-story" key={i}>
                 <div
                   style={{
-                    background: `url(${image.image_url}) no-repeat`,
+                    background: `url(${image.image_url}) no-repeat center`,
                     backgroundSize: "cover"
                   }}
                 ></div>
